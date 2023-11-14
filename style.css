@@ -1,0 +1,15 @@
+/* This assignment, asks for Grouping Seclectors, as seen in this example, first I have seleceted the firstbox class than by comma I have selected the second class and given them the values that they share*/
+.firstbox, .secondbox{
+ font-size: 28px;
+ font-family: Arial, Helvetica, sans-serif;
+}
+/* I called the first box class indivually so I can assign the value that this class do not share*/
+.firstbox{
+  color: white;
+  background-color: black;
+
+}
+/* I called the Second box class indivually so I can assign the value that this class do not share with firstbox*/
+.secondbox{
+ background-color: yellow;
+}
